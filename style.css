@@ -1,7 +1,9 @@
 .container{
     max-width: 400px;
+    background: rgb(40, 40, 104);
     margin: 10vh auto 0 auto;
     box-shadow: 0px 0px 40px 13px rgb(68, 64, 64);
+    border-radius: 8px;
 }
 #display{
     text-align: right;
@@ -28,7 +30,9 @@
     font-size: 25px;
     cursor: pointer;
     color: rgb(5, 5, 5);
-    background: rgb(255, 59, 59);
+    background: rgba(194, 194, 194, 0.658);
+    margin: 0.5%;
+    border-radius: 50%;
 }
 #equal{
     background-color: rgb(83, 83, 236);
@@ -36,7 +40,7 @@
     grid-row: span 2;
 }
 .button:hover{
-    background-color: rgb(255, 7, 7);
+    background-color: rgba(45, 97, 209, 0.945);
     color: black;
     transition: 0.5s ease-out;
 }
